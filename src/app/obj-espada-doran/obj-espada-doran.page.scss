@@ -1,0 +1,14 @@
+.center-row {
+    display: flex;
+    justify-content: center;
+  }
+
+.center-image {
+  display: block;
+  margin: 0 auto;
+  width: 150px; /* Ajusta el ancho deseado */
+  height: auto;
+  background-color: gray; /* Color de fondo gris */
+  padding: 10px; /* Espaciado interno para dar espacio al fondo gris */
+  text-align: center; /* Centra contenido verticalmente */
+}

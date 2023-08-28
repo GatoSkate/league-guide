@@ -1,0 +1,15 @@
+.centrar{
+    text-align: center;
+}
+
+.center-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .center-image {
+    display: block;
+    margin: 0 auto;
+    width: 100px; /* Ajusta el ancho deseado */
+    height: auto;
+  }

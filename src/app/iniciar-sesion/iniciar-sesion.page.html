@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>iniciar-sesion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Acceder</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div style="margin-top: 100px;">
+    <ion-list>
+      <ion-item>
+        <ion-input labelPlacement="floating" placeholder="example@email.com">
+          <div slot="label">Email</div>
+        </ion-input>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-item>
+        <ion-input labelPlacement="floating" placeholder="******" type="password">
+          <div slot="label">Contraseña</div>
+        </ion-input>
+      </ion-item>
+    </ion-list>
+
+    <ion-button expand="block" style="margin-top: 25px;">Acceder</ion-button>
+    <a href="/registrarse"><p style="text-align: center;">¿No tienes cuenta? ¡Crea una!</p></a>
+  </div>
+
+</ion-content>
