@@ -80,12 +80,100 @@ const routes: Routes = [
     loadChildren: () => import('./registrarse/registrarse.module').then( m => m.RegistrarsePageModule)
   },
   {
-    path: 'admin-campeones',
-    loadChildren: () => import('./admin-campeones/admin-campeones.module').then( m => m.AdminCampeonesPageModule)
+    path: 'crud-campeon',
+    loadChildren: () => import('./crud/crud-campeon/crud-campeon/crud-campeon.module').then( m => m.CrudCampeonPageModule)
   },
   {
-    path: 'crud-campeones',
-    loadChildren: () => import('./crud-campeones/crud-campeones.module').then( m => m.CrudCampeonesPageModule)
+    path: 'crud-agregar-campeon',
+    loadChildren: () => import('./crud/crud-campeon/crud-agregar-campeon/crud-agregar-campeon.module').then( m => m.CrudAgregarCampeonPageModule)
+  },
+  {
+    path: 'crud-listar-campeon',
+    loadChildren: () => import('./crud/crud-campeon/crud-listar-campeon/crud-listar-campeon.module').then( m => m.CrudListarCampeonPageModule)
+  },
+  {
+    path: 'crud-eliminar-campeon',
+    loadChildren: () => import('./crud/crud-campeon/crud-eliminar-campeon/crud-eliminar-campeon.module').then( m => m.CrudEliminarCampeonPageModule)
+  },
+  {
+    path: 'crud-agregar-item',
+    loadChildren: () => import('./crud/crud-item/crud-agregar-item/crud-agregar-item.module').then( m => m.CrudAgregarItemPageModule)
+  },
+  {
+    path: 'crud-listar-item',
+    loadChildren: () => import('./crud/crud-item/crud-listar-item/crud-listar-item.module').then( m => m.CrudListarItemPageModule)
+  },
+  {
+    path: 'crud-eliminar-item',
+    loadChildren: () => import('./crud/crud-item/crud-eliminar-item/crud-eliminar-item.module').then( m => m.CrudEliminarItemPageModule)
+  },
+  {
+    path: 'crud-modificar-item',
+    loadChildren: () => import('./crud/crud-item/crud-modificar-item/crud-modificar-item.module').then( m => m.CrudModificarItemPageModule)
+  },
+  {
+    path: 'crud-agregar-mapa',
+    loadChildren: () => import('./crud/crud-mapas/crud-agregar-mapa/crud-agregar-mapa.module').then( m => m.CrudAgregarMapaPageModule)
+  },
+  {
+    path: 'crud-eliminar-mapa',
+    loadChildren: () => import('./crud/crud-mapas/crud-eliminar-mapa/crud-eliminar-mapa.module').then( m => m.CrudEliminarMapaPageModule)
+  },
+  {
+    path: 'crud-modificar-mapa',
+    loadChildren: () => import('./crud/crud-mapas/crud-modificar-mapa/crud-modificar-mapa.module').then( m => m.CrudModificarMapaPageModule)
+  },
+  {
+    path: 'crud-listar-mapa',
+    loadChildren: () => import('./crud/crud-mapas/crud-listar-mapa/crud-listar-mapa.module').then( m => m.CrudListarMapaPageModule)
+  },
+  {
+    path: 'crud-mapa',
+    loadChildren: () => import('./crud/crud-mapas/crud-mapa/crud-mapa.module').then( m => m.CrudMapaPageModule)
+  },
+  {
+    path: 'crud-modo',
+    loadChildren: () => import('./crud/crud-modos/crud-modo/crud-modo.module').then( m => m.CrudModoPageModule)
+  },
+  {
+    path: 'crud-agregar-modo',
+    loadChildren: () => import('./crud/crud-modos/crud-agregar-modo/crud-agregar-modo.module').then( m => m.CrudAgregarModoPageModule)
+  },
+  {
+    path: 'crud-eliminar-modo',
+    loadChildren: () => import('./crud/crud-modos/crud-eliminar-modo/crud-eliminar-modo.module').then( m => m.CrudEliminarModoPageModule)
+  },
+  {
+    path: 'crud-modificar-modo',
+    loadChildren: () => import('./crud/crud-modos/crud-modificar-modo/crud-modificar-modo.module').then( m => m.CrudModificarModoPageModule)
+  },
+  {
+    path: 'crud-listar-modo',
+    loadChildren: () => import('./crud/crud-modos/crud-listar-modo/crud-listar-modo.module').then( m => m.CrudListarModoPageModule)
+  },
+  {
+    path: 'crud-item',
+    loadChildren: () => import('./crud/crud-item/crud-item/crud-item.module').then( m => m.CrudItemPageModule)
+  },
+  {
+    path: 'crud-actualizar-campeon',
+    loadChildren: () => import('./crud/crud-campeon/crud-actualizar-campeon/crud-actualizar-campeon.module').then( m => m.CrudActualizarCampeonPageModule)
+  },
+  {
+    path: 'crud-leer-campeon',
+    loadChildren: () => import('./crud/crud-campeon/crud-leer-campeon/crud-leer-campeon.module').then( m => m.CrudLeerCampeonPageModule)
+  },
+  {
+    path: 'crud-leer-item',
+    loadChildren: () => import('./crud/crud-item/crud-leer-item/crud-leer-item.module').then( m => m.CrudLeerItemPageModule)
+  },
+  {
+    path: 'crud-leer-mapa',
+    loadChildren: () => import('./crud/crud-mapa/crud-leer-mapa/crud-leer-mapa.module').then( m => m.CrudLeerMapaPageModule)
+  },
+  {
+    path: 'crud-leer-modo',
+    loadChildren: () => import('./crud/crud-modo/crud-leer-modo/crud-leer-modo.module').then( m => m.CrudLeerModoPageModule)
   }
 ];
 

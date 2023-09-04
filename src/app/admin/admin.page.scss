@@ -1,21 +1,48 @@
-.center-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 60vh; /* Opcional: ajusta la altura de la pantalla completa */
-  
-    .button-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  
-      ion-button {
-        margin: 10px 0;
-      }
-    }
-  }
-
 .centrar{
     text-align: center;
 }
   
+// ion-header {
+//   background-color: #007bff; /* Color de fondo del encabezado */
+//   color: #fff; /* Color del texto del encabezado */
+// }
+
+ion-title {
+  font-size: 1.5rem; /* Tamaño de fuente del título */
+}
+
+ion-content {
+  --ion-text-color: white; /* Color del texto del contenido */
+  --ion-padding: 20px; /* Espacio de relleno interior del contenido */
+  text-align: center; /* Centra el texto en el contenido */
+
+  ion-header {
+    ion-toolbar {
+      ion-title {
+        font-size: 1.2rem; /* Tamaño de fuente del título dentro del encabezado colapsado */
+      }
+    }
+  }
+
+  .centrar {
+    font-size: 2rem; /* Tamaño de fuente del título H2 */
+    font-weight: bold; /* Texto en negrita */
+    margin-top: 20px; /* Margen superior entre el título y los botones */
+  }
+
+  .center-container {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    height: calc(100vh - 200px); /* Altura del contenedor centrado, ajusta según tus necesidades */
+  }
+
+  .button-container {
+    ion-button {
+      --background: #007bff; /* Color de fondo de los botones */
+      --color: #fff; /* Color del texto de los botones */
+      width: 100%; /* Ancho completo de los botones */
+      margin: 10px 0; /* Margen vertical entre los botones */
+    }
+  }
+}

@@ -13,8 +13,20 @@ export class AdminPage implements OnInit {
   ngOnInit() {
   }
 
-  redirectToCampeones() {
-    this.router.navigate(['/admin-campeones']);
+  redirectToCrudCampeones() {
+    this.router.navigate(['/crud-campeon']);
   }
 
-}
+  redirectToCrudItems() {
+    this.router.navigate(['/crud-item']);
+  }
+
+  redirectToCrudMapas() {
+    this.router.navigate(['/crud-mapa']);
+  }
+
+  redirectToCrudModos() {
+    this.router.navigate(['/crud-modo']);
+  }
+
+} 
