@@ -113,43 +113,43 @@ const routes: Routes = [
   },
   {
     path: 'crud-agregar-mapa',
-    loadChildren: () => import('./crud/crud-mapas/crud-agregar-mapa/crud-agregar-mapa.module').then( m => m.CrudAgregarMapaPageModule)
+    loadChildren: () => import('./crud/crud-mapa/crud-agregar-mapa/crud-agregar-mapa.module').then( m => m.CrudAgregarMapaPageModule)
   },
   {
     path: 'crud-eliminar-mapa',
-    loadChildren: () => import('./crud/crud-mapas/crud-eliminar-mapa/crud-eliminar-mapa.module').then( m => m.CrudEliminarMapaPageModule)
+    loadChildren: () => import('./crud/crud-mapa/crud-eliminar-mapa/crud-eliminar-mapa.module').then( m => m.CrudEliminarMapaPageModule)
   },
   {
     path: 'crud-modificar-mapa',
-    loadChildren: () => import('./crud/crud-mapas/crud-modificar-mapa/crud-modificar-mapa.module').then( m => m.CrudModificarMapaPageModule)
+    loadChildren: () => import('./crud/crud-mapa/crud-modificar-mapa/crud-modificar-mapa.module').then( m => m.CrudModificarMapaPageModule)
   },
   {
     path: 'crud-listar-mapa',
-    loadChildren: () => import('./crud/crud-mapas/crud-listar-mapa/crud-listar-mapa.module').then( m => m.CrudListarMapaPageModule)
+    loadChildren: () => import('./crud/crud-mapa/crud-listar-mapa/crud-listar-mapa.module').then( m => m.CrudListarMapaPageModule)
   },
   {
     path: 'crud-mapa',
-    loadChildren: () => import('./crud/crud-mapas/crud-mapa/crud-mapa.module').then( m => m.CrudMapaPageModule)
+    loadChildren: () => import('./crud/crud-mapa/crud-mapa/crud-mapa.module').then( m => m.CrudMapaPageModule)
   },
   {
     path: 'crud-modo',
-    loadChildren: () => import('./crud/crud-modos/crud-modo/crud-modo.module').then( m => m.CrudModoPageModule)
+    loadChildren: () => import('./crud/crud-modo/crud-modo/crud-modo.module').then( m => m.CrudModoPageModule)
   },
   {
     path: 'crud-agregar-modo',
-    loadChildren: () => import('./crud/crud-modos/crud-agregar-modo/crud-agregar-modo.module').then( m => m.CrudAgregarModoPageModule)
+    loadChildren: () => import('./crud/crud-modo/crud-agregar-modo/crud-agregar-modo.module').then( m => m.CrudAgregarModoPageModule)
   },
   {
     path: 'crud-eliminar-modo',
-    loadChildren: () => import('./crud/crud-modos/crud-eliminar-modo/crud-eliminar-modo.module').then( m => m.CrudEliminarModoPageModule)
+    loadChildren: () => import('./crud/crud-modo/crud-eliminar-modo/crud-eliminar-modo.module').then( m => m.CrudEliminarModoPageModule)
   },
   {
     path: 'crud-modificar-modo',
-    loadChildren: () => import('./crud/crud-modos/crud-modificar-modo/crud-modificar-modo.module').then( m => m.CrudModificarModoPageModule)
+    loadChildren: () => import('./crud/crud-modo/crud-modificar-modo/crud-modificar-modo.module').then( m => m.CrudModificarModoPageModule)
   },
   {
     path: 'crud-listar-modo',
-    loadChildren: () => import('./crud/crud-modos/crud-listar-modo/crud-listar-modo.module').then( m => m.CrudListarModoPageModule)
+    loadChildren: () => import('./crud/crud-modo/crud-listar-modo/crud-listar-modo.module').then( m => m.CrudListarModoPageModule)
   },
   {
     path: 'crud-item',
