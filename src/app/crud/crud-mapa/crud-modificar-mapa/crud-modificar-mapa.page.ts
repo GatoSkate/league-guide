@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CrudModificarMapaPage implements OnInit {
 
-  constructor() { }
+  registro={
+    id:"",
+    nombre_mapa:"",
+    titulo:"",
+    descripcion:"",
+    cantidad_blue:"",
+    cantidad_red:"",
+    color_mapa:"",
 
-  ngOnInit() {
+
   }
+constructor() { }
+
+ngOnInit() {
+}
+grabar(){}
+
 
 }

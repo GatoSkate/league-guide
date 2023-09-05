@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CrudEliminarMapaPage implements OnInit {
 
+  id="1"
+
   constructor() { }
 
   ngOnInit() {
   }
-
+  grabar(){}
+  
 }
